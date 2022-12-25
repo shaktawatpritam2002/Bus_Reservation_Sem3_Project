@@ -57,9 +57,7 @@ def check():
 
             last_text = Label(final, text = "The amount you needto pay at the time of boarding the bus")
             last_text.grid(row =20, column=0)
-
-
-        
+    
 
             for i in res:
                 Label(final,text = i[0],font='Arial 10 bold').grid(row=9,column = 0)
@@ -111,7 +109,6 @@ mobile_ent.grid(row =7, column=1)
 
 check_but = Button(root, text = "Check Booking", command = check)
 check_but.grid(row = 7, column=2)
-
 
 
 root.mainloop()
